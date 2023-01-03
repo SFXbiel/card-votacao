@@ -9,3 +9,9 @@ function negativo() {
     noCounter = noCounter + 1;
     document.getElementById("naofofo").innerHTML = noCounter + " Não gostei";
 }
+
+function reset() {
+    document.getElementById("reset").value = " ";
+    document.getElementById("fofo").innerHTML = "0";
+    document.getElementById("naofofo").innerHTML = "0";
+}
